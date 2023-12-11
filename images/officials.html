@@ -1,0 +1,323 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.84.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>Capayang</title>
+
+    <link href="style.css" rel="stylesheet">
+    <link href="media-css.css" rel="stylesheet">
+  
+    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+
+
+   
+  </head>
+  <body>
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+        <symbol id="bootstrap" viewBox="0 0 118 94">
+          <title>Bootstrap</title>
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M24.509 0c-6.733 0-11.715 5.893-11.492 12.284.214 6.14-.064 14.092-2.066 20.577C8.943 39.365 5.547 43.485 0 44.014v5.972c5.547.529 8.943 4.649 10.951 11.153 2.002 6.485 2.28 14.437 2.066 20.577C12.794 88.106 17.776 94 24.51 94H93.5c6.733 0 11.714-5.893 11.491-12.284-.214-6.14.064-14.092 2.066-20.577 2.009-6.504 5.396-10.624 10.943-11.153v-5.972c-5.547-.529-8.934-4.649-10.943-11.153-2.002-6.484-2.28-14.437-2.066-20.577C105.214 5.894 100.233 0 93.5 0H24.508zM80 57.863C80 66.663 73.436 72 62.543 72H44a2 2 0 01-2-2V24a2 2 0 012-2h18.437c9.083 0 15.044 4.92 15.044 12.474 0 5.302-4.01 10.049-9.119 10.88v.277C75.317 46.394 80 51.21 80 57.863zM60.521 28.34H49.948v14.934h8.905c6.884 0 10.68-2.772 10.68-7.727 0-4.643-3.264-7.207-9.012-7.207zM49.948 49.2v16.458H60.91c7.167 0 10.964-2.876 10.964-8.281 0-5.406-3.903-8.178-11.425-8.178H49.948z"></path>
+        </symbol>
+        <symbol id="home" viewBox="0 0 16 16">
+          <path d="M8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4.5a.5.5 0 0 0 .5-.5v-4h2v4a.5.5 0 0 0 .5.5H14a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146zM2.5 14V7.707l5.5-5.5 5.5 5.5V14H10v-4a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5v4H2.5z"/>
+        </symbol>
+        
+        <symbol id="grid-fill" viewBox="0 0 16 16">
+        <path d="M0 1a1 1 0 0 1 1-1h5a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V1zm9 0a1 1 0 0 1 1-1h5a1 1 0 0 1 1 1v5a1 1 0 0 1-1 1h-5a1 1 0 0 1-1-1V1zm0 9a1 1 0 0 1 1-1h5a1 1 0 0 1 1 1v5a1 1 0 0 1-1 1h-5a1 1 0 0 1-1-1v-5z"/>
+        </symbol>
+        <symbol id="people-circle" viewBox="0 0 16 16">
+          <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+          <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+        </symbol>
+        <symbol id="fyi" viewBox="0 0 512 512">
+          <path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM216 336h24V272H216c-13.3 0-24-10.7-24-24s10.7-24 24-24h48c13.3 0 24 10.7 24 24v88h8c13.3 0 24 10.7 24 24s-10.7 24-24 24H216c-13.3 0-24-10.7-24-24s10.7-24 24-24zm40-208a32 32 0 1 1 0 64 32 32 0 1 1 0-64z"/>
+         </symbol>
+      </svg>
+    <header>
+        <div class="px-3 py-2 bg-dark text-white">
+          <div class="container">
+            <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+              <a href="/" class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
+                <img src="capayang-logo.png" width="80" height="80">
+              </a>
+    
+              <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">
+                <li>
+                  <a href="index.html" class="nav-link text-secondary">
+                    <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#home"/></svg>
+                    Home
+                  </a>
+                </li>
+                
+                <li>
+                  <a href="announcement.html" class="nav-link text-white">
+                    <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#fyi"/></svg>
+                    F.Y.I
+                  </a>
+                </li>
+                <div class="dropdown">
+                    <a href="officials.html" class="nav-link text-white">
+                        <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#people-circle"/></svg>
+                    Officials
+                    </a>
+                </div>
+                <li>
+                    <a href="gallery.html" class="nav-link text-white">
+                      <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#grid-fill"/></svg>
+                     Gallery
+                    </a>
+                  </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        
+      </header>
+      <!-- background pic -->
+      <!-- <div class="background-pic">
+        <h1>Barangay Capayang</h1>
+      </div> -->
+
+
+      <ul class="nav nav-tabs">
+        <li class="nav-item">
+          <a class="nav-link" href="#SBarangay" onclick="openInfo('SB')">Sangguniang Barangay</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#SKabataan" onclick="openInfo('SK')">Sangguniang Kabataan</a>
+          </li>
+      </ul>
+     
+      
+        <div id="SB" class="tabs info">
+          <h2 style="text-align: center;">Sangguniang Barangay Officals</h2>
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card">
+                <img src="captain.jpg" class="card-img-top" alt="Kap Moreno" width="50" height="435">
+                <div class="card-body">
+                  <h5 class="card-title" style="text-align: center;">Rommel N. Moreno</h5>
+                  <p class="card-text" style="text-align: center;">Barangay Chairman</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="ricky.jpg" class="card-img-top" alt="Kagawad Ricky" width="50" height="435">
+                <div class="card-body">
+                  <h5 class="card-title" style="text-align: center;">Ricky N. Ñunez</h5>
+                  <p class="card-text"  style="text-align: center;">Commission on peace and Order</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="2.png" class="card-img-top" alt="gina" width="10" height="435">
+              
+                <div class="card-body">
+                  <h5 class="card-title">Jean N. Mayores</h5>
+                  <p class="card-text">Commission on Health</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card" style="text-align: center;">
+                <img src="lawig.jpg" class="card-img-top" alt="lawig" width="10" height="435">
+
+                <div class="card-body">
+                  <h5 class="card-title">Librado M. Lawig</h5>
+                  <p class="card-text">Commission on BAC, Water Works & Education & Appropriation</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card" style="text-align: center;">
+                <img src="herman.jpg" class="card-img-top" alt="herman" width="10" height="435">
+                
+                <div class="card-body">
+                  <h5 class="card-title">Herman O. Narzoles</h5>
+                  <p class="card-text">Commission on Health</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card" style="text-align: center;">
+                <img src="rogen.jpg" class="card-img-top" alt="rogen" width="10" height="435">
+                
+                <div class="card-body">
+                  <h5 class="card-title">Rogen L. Mayores</h5>
+                  <p class="card-text">Commission on Environment & Solid Waste Management</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card" style="text-align: center;">
+                <img src="4.png" class="card-img-top" alt="eleanor" width="10" height="435">
+                
+                <div class="card-body">
+                  <h5 class="card-title">Ma. Eleanor S. Sunga</h5>
+                  <p class="card-text">Commission on Infrastracture & VAWC & Disaster</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card" style="text-align: center;">
+                <img src="5.png" class="card-img-top" alt="edora" width="10" height="435">
+                
+                <div class="card-body">
+                  <h5 class="card-title">Ma. Edora P. Oliveros</h5>
+                  <p class="card-text">Commission on Rules & Regulation</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card" style="text-align: center;">
+                <img src="sk.jpg" class="card-img-top" alt="sk" width="10" height="435">
+                
+                <div class="card-body">
+                  <h5 class="card-title">John Rick R. Narzoles</h5>
+                  <p class="card-text">SK Chairman</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card" style="text-align: center;">
+                <img src="phey.jpg" class="card-img-top" alt="pheysunga" width="10" height="435">
+                
+                <div class="card-body">
+                  <h5 class="card-title">April S. Sunga</h5>
+                  <p class="card-text">Barangay Secretary</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card" style="text-align: center;">
+                <img src="nimfa.jpg" class="card-img-top" alt="rudas" width="10" height="435">
+                
+                <div class="card-body">
+                  <h5 class="card-title">Nimfa M. Rudas</h5>
+                  <p class="card-text">Barangay Treasurer</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div id="SK" class="tabs info" style="display:none">
+            <h2 style="text-align: center;">Sangguniang Kabataan Officals</h2>
+            <!-- card -->
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card" style="text-align: center;">
+                <img src="sk.jpg" class="card-img-top" alt="John rick " width="10" height="435">
+                
+                <div class="card-body">
+                  <h5 class="card-title">John Rick R.. Narzoles</h5>
+                  <p class="card-text">SK Chairman</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card" style="text-align: center;">
+                <img src="gerald.jpg" class="card-img-top" alt="gerald " width="10" height="435">
+                
+                <div class="card-body">
+                  <h5 class="card-title">Gerald M. Mandia</h5>
+                  <p class="card-text">SK Kagawad</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card" style="text-align: center;">
+                <img src="jayson.jpg" class="card-img-top" alt="JAyson" width="10" height="435">
+                
+                <div class="card-body">
+                  <h5 class="card-title">Jayson S. Cahayag</h5>
+                  <p class="card-text">SK Kagawad</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card" style="text-align: center;">
+                <img src="dona.jpg" class="card-img-top" alt="Donna" width="10" height="435">
+                
+                <div class="card-body">
+                  <h5 class="card-title">Donna Marie L. Lagrana</h5>
+                  <p class="card-text">SK Kagawad</p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="col">
+              <div class="card" style="text-align: center;">
+                <img src="jester.jpg" class="card-img-top" alt="Jester" width="10" height="435">
+                
+                <div class="card-body">
+                  <h5 class="card-title">Jester M. Ola/h5>
+                  <p class="card-text">SK Kagawad</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card" style="text-align: center;">
+                <img src="alai.jpg" class="card-img-top" alt="Alaiza" width="10" height="435">
+                
+                <div class="card-body">
+                  <h5 class="card-title">Alaiza T. Mangue</h5>
+                  <p class="card-text">SK Kagawad</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card" style="text-align: center;">
+                <img src="kate.jpg" class="card-img-top" alt="kATE" width="10" height="435">
+                
+                <div class="card-body">
+                  <h5 class="card-title">Kate Shea M. Ola</h5>
+                  <p class="card-text">SK Treasurer/p>
+                </div>
+              </div>
+            </div>
+            
+            </div>
+          </div>
+  
+          <a href="contact.html" class="float">
+            <i class="fa-solid fa-envelope"></i>
+          </a>
+
+
+          <footer>
+            Copyright@Capayang 2023
+          </footer>
+
+      <!-- script -->
+      <script>
+      function openInfo(infoAbout) {
+        var i;
+        var x = document.getElementsByClassName("info");
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";  
+        }
+        document.getElementById(infoAbout).style.display = "block";  
+      }
+      </script>
+
+
+
+
+
+
+
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+
+      
+  </body>
+</html>
